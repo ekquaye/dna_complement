@@ -3,9 +3,7 @@
 
 import unittest
 import os
-import sys
 import shutil
-import pytest
 from click.testing import CliRunner
 
 from dna_comp import cli
@@ -94,6 +92,7 @@ class TestCase(unittest.TestCase):
         self.assertEqual(greet, expected)
 
         ### TODO: Add other moods.
+
 
 if __name__ == "__main__":
     unittest.main()
