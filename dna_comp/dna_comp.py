@@ -14,4 +14,3 @@ def complement_DNA(dna_sequence=None) -> None:
     complement_dict = {'A': 'T', 'T': 'A', 'C': 'G', 'G': 'C'}
     complement_sequence = ''.join([complement_dict[base] for base in dna_sequence])
     return complement_sequence
-
