@@ -1,5 +1,7 @@
 # Changelog
 
+## 0.0.1
+
 ## 0.1.4
 
 - pass
@@ -20,3 +22,4 @@
 ## 0.1.0 (2024-03-21)
 
 * First release on PyPI.
+
