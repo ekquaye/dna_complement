@@ -1,4 +1,4 @@
-sources = template
+sources = dna_comp
 
 .PHONY: test format lint unittest coverage pre-commit clean
 test: format lint unittest
