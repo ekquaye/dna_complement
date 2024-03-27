@@ -1,32 +1,20 @@
 """Main module."""
 
 
-def greeting(mood=None) -> None:
+def complement_DNA(dna_sequence=None) -> None:
     """
-    greeting(mood): Print a greeting depending on the mood.
+    complement_DNA(dna_sequence: Prints the dna reverse complement sequence.
 
     Parameters
     ----------
-    mood : str, optional
-           The mood of the greeting.
+    dna_sequence : dna.sequence
+           reverse complement of the dna sequence.
 
     """
 
-    if mood is None:
-        greeting = "Hallo!"
 
-    elif mood == "sad":
-        greeting = "How are you? I'm sad."
+def complement_DNA(dna_sequence):
+    complement_dict = {'A': 'T', 'T': 'A', 'C': 'G', 'G': 'C'}
+    complement_sequence = ''.join([complement_dict[base] for base in dna_sequence])
+    return complement_sequence
 
-    elif mood == "good":
-        greeting = "Hi, what's up?"
-
-    elif mood == "formal":
-        greeting = "Good day, how are you today?"
-
-    else:
-        greeting == "I did not get that."
-
-    print(greeting)
-
-    return (greeting)
