@@ -81,17 +81,17 @@ class TestCase(unittest.TestCase):
         self.assertEqual(help_result.exit_code, 0)
         self.assertIn('--help  Show this message and exit.', help_result.output)
 
-    def test_greeting(self):
-        """ Test the greeting function."""
+    def test_complement_DNA(self):
+        """ Test the complement_DNA function."""
 
-        mood = "sad"
+        dna_sequence = "sad"
 
-        greet = greeting(mood)
+        greet = complement_DNA(dna_sequence)
         expected = "How are you? I'm sad."
 
         self.assertEqual(greet, expected)
 
-        ### TODO: Add other moods.
+        ### TODO: Add other dna_sequences.
 
 
 if __name__ == "__main__":
