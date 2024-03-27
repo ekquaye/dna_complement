@@ -1,4 +1,4 @@
-* Python Template Package version:
+* Python dna_comp Package version:
 * Python version:
 * Operating System:
 
