@@ -1,4 +1,4 @@
-"""Console script for template."""
+"""Console script for dna_comp."""
 
 import click
 
@@ -6,9 +6,9 @@ import click
 @click.command()
 def main():
     """Main entrypoint."""
-    click.echo("python-template-package")
-    click.echo("=" * len("python-template-package"))
-    click.echo("Python package template with MPI Evolutionary Biology branding.")
+    click.echo("python-dna_comp-package")
+    click.echo("=" * len("python-dna_comp-package"))
+    click.echo("Python package dna_comp with MPI Evolutionary Biology branding.")
 
 
 if __name__ == "__main__":
