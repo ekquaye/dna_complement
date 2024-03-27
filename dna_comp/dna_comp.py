@@ -1,5 +1,6 @@
 """Main module."""
 
+
 def greeting(mood=None) -> None:
     """
     greeting(mood): Print a greeting depending on the mood.
@@ -20,7 +21,7 @@ def greeting(mood=None) -> None:
     elif mood == "good":
         greeting = "Hi, what's up?"
 
-    elif moood == "formal":
+    elif mood == "formal":
         greeting = "Good day, how are you today?"
 
     else:
@@ -28,6 +29,4 @@ def greeting(mood=None) -> None:
 
     print(greeting)
 
-    return(greeting)
-
-
+    return (greeting)
