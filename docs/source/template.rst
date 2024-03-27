@@ -1,7 +1,7 @@
 ----------------
-template package
+dna_comp package
 ----------------
 
-.. automodule:: template
+.. automodule:: dna_comp
    :members:
 

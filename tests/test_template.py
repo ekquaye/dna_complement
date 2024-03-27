@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""Tests for `template` package."""
+"""Tests for `dna_comp` package."""
 
 import unittest
 import os
@@ -77,7 +77,7 @@ class TestCase(unittest.TestCase):
         result = runner.invoke(cli.main)
 
         self.assertEqual(result.exit_code, 0)
-        self.assertIn('python-template-package', result.output)
+        self.assertIn('python-dna_comp-package', result.output)
 
         help_result = runner.invoke(cli.main, ['--help'])
         self.assertEqual(help_result.exit_code, 0)
