@@ -7,7 +7,7 @@ import shutil
 from click.testing import CliRunner
 
 from dna_comp import cli
-from dna_comp.dna_comp import greeting
+from dna_comp.dna_comp import complement_DNA
 
 
 class TestCase(unittest.TestCase):
