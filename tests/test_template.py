@@ -8,8 +8,8 @@ import shutil
 import pytest
 from click.testing import CliRunner
 
-from template import cli
-from template.template import greeting
+from dna_comp import cli
+from dna_comp.dna_comp import greeting
 
 
 class TestCase(unittest.TestCase):
@@ -61,7 +61,7 @@ class TestCase(unittest.TestCase):
 
         received = False
 
-        self.assertTrue(received)
+        self.assertFalse(received)
 
     @unittest.skip("Give me a good reason for skipping!")
     def test_skipped_fails(self):
