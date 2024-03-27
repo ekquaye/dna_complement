@@ -70,7 +70,7 @@ doc = [
     ]
 
 [tool.poetry.scripts]
-python-template-package = 'template.cli:main'
+python-template-package = 'dna_comp.cli:main'
 
 [tool.black]
 line-length = 120
