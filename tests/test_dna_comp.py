@@ -84,10 +84,10 @@ class TestCase(unittest.TestCase):
     def test_complement_DNA(self):
         """ Test the complement_DNA function."""
 
-        dna_sequence = "sad"
+        dna_sequence = "AGCT"
 
         greet = complement_DNA(dna_sequence)
-        expected = "How are you? I'm sad."
+        expected = "TCGA"
 
         self.assertEqual(greet, expected)
 
